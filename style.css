@@ -38,10 +38,12 @@ p {
 }
 
 .container {
+    box-shadow: 3px 8px 64px 1px rgb(99, 98, 98);
     width: 325px;
     height: 350px;
     display: flex;
     flex-direction: column;
+    border-radius: 15px;
 }
 
 .banner img {
@@ -134,7 +136,6 @@ h2 {
     padding-bottom: 1rem;
     font-size: 0.8rem;
     text-align: center;
-    font-family: 'Lexend Deca', sans-serif;
 }
 
 #creditText a {
