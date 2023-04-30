@@ -13,6 +13,11 @@
     box-sizing: border-box;
 }
 
+html {
+    display: flex;
+    flex-direction: column;
+}
+
 body {
     font-family: 'Kumbh Sans', sans-serif;
     height: 100vh;
@@ -131,15 +136,21 @@ h2 {
 }
 
 #creditText {
+    display: flex;
+    background-color: #ffffff;
     position: absolute;
-    margin-top: 32rem;
-    padding-bottom: 1rem;
+    margin-top: 35rem;
+    padding: 0.5rem;
+    width: 100%;
+    justify-content: center;
     font-size: 0.8rem;
-    text-align: center;
+    align-items: center;
+
 }
 
 #creditText a {
     text-decoration: none;
+    margin: 0 0.25rem;
 }
 
 @media screen and (max-width:600px) {
